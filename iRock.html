@@ -6,8 +6,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style.css" />
         <title>iRock</title>
+
+        <!-- <script type="text/javascript">
+			//Aqui vem o código JS, caso queira usar JS diretamente no HTML.
+		</script> -->
     </head>
     <body onload="alert('Olá! Eu sou a sua rocha de estimação.');">
-        <img src="./assets/rock.png" alt="" />
+        <h1 id="text">Clique na rocha</h1>
+        <div class="imagem">
+            <img
+                id="rockImg"
+                src="./assets/rock.png"
+                alt="iRock"
+                onclick="touchRock()"
+            />
+        </div>
+
+        <script src="./stcript.js"></script>
     </body>
 </html>
